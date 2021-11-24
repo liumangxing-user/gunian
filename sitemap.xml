@@ -30,14 +30,14 @@
   </url>
   
   <url>
-    <loc>http://www.gunina.cool/friends/index.html</loc>
+    <loc>http://www.gunina.cool/contact/index.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.gunina.cool/contact/index.html</loc>
+    <loc>http://www.gunina.cool/friends/index.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
@@ -58,14 +58,14 @@
   </url>
   
   <url>
-    <loc>http://www.gunina.cool/archives/index.html</loc>
+    <loc>http://www.gunina.cool/baidu_verify_xxxxxxx.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.gunina.cool/baidu_verify_xxxxxxx.html</loc>
+    <loc>http://www.gunina.cool/archives/index.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
@@ -93,14 +93,14 @@
   </url>
   
   <url>
-    <loc>http://www.gunina.cool/posts/17fd92ae.html</loc>
+    <loc>http://www.gunina.cool/posts/7a46f93c.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.gunina.cool/posts/7a46f93c.html</loc>
+    <loc>http://www.gunina.cool/posts/17fd92ae.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
@@ -198,14 +198,14 @@
   </url>
   
   <url>
-    <loc>http://www.gunina.cool/List/galleries/%E5%8A%A8%E6%BC%AB%E6%8F%92%E7%94%BB/index.html</loc>
+    <loc>http://www.gunina.cool/List/galleries/%E5%8A%A8%E6%BC%AB%E9%A3%8E%E6%99%AF/index.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.gunina.cool/List/galleries/%E5%8A%A8%E6%BC%AB%E9%A3%8E%E6%99%AF/index.html</loc>
+    <loc>http://www.gunina.cool/List/galleries/%E5%8A%A8%E6%BC%AB%E6%8F%92%E7%94%BB/index.html</loc>
     
     <lastmod>2021-11-24</lastmod>
     
@@ -277,20 +277,6 @@
   </url>
   
   <url>
-    <loc>http://www.gunina.cool/tags/%E6%B8%B2%E6%9F%93%E7%BB%95%E8%BF%87/</loc>
-    <lastmod>2021-11-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.gunina.cool/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
-    <lastmod>2021-11-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.gunina.cool/tags/hexo-blog-lucky/</loc>
     <lastmod>2021-11-24</lastmod>
     <changefreq>daily</changefreq>
@@ -313,6 +299,20 @@
   
   <url>
     <loc>http://www.gunina.cool/tags/GitHub%E5%9B%BE%E5%BA%8A/</loc>
+    <lastmod>2021-11-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gunina.cool/tags/%E6%B8%B2%E6%9F%93%E7%BB%95%E8%BF%87/</loc>
+    <lastmod>2021-11-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gunina.cool/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
     <lastmod>2021-11-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
