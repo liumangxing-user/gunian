@@ -141,13 +141,13 @@ $(function () {
     });
 
     function showOrHideNavBg(position) {
-        let showPosition = 100;
+        let showPosition = 120;
         if (position < showPosition) {
             $nav.addClass('nav-transparent');
-            $backTop.slideUp(300);
+            $backTop.slideUp(400);
         } else {
             $nav.removeClass('nav-transparent');
-            $backTop.slideDown(300);
+            $backTop.slideDown(400);
         }
     }
 
