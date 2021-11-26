@@ -672,7 +672,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-11-24
+                    2021-11-25
                 </div>
                 
 
@@ -708,7 +708,7 @@
 <p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20210518215948.png"></p>
 <h3 id="0x01-LuckyBlog-介绍"><a href="#0x01-LuckyBlog-介绍" class="headerlink" title="0x01 LuckyBlog 介绍"></a>0x01 LuckyBlog 介绍</h3><p>上一个LuckyBlog版本发布于2020年的9月份，是在 <a target="_blank" rel="noopener" href="https://sunhwee.com/">洪卫の博客</a> 基础上进行修改的。自从发布以来有很多网友都私信搭建了博客，同时也发现了旧版本中存在的一些问题需要解决，例如：搜索框不适配XML代码搜索，部分图片失效，代码块问题以及各种小问题。现在将最新的LuckyBlog版本代码发布出来，修复改进了不少的BUG，使其更加稳定运行。同时完善了博客的基础功能，例如：音乐、视频、相册、百宝箱等页面。同时增加了不少的新功能，例如：适配Hexo5.x、黑白天浏览模式、仿Windows页面，站点统计等。</p>
 <ul>
-<li>博客演示地址：<a target="_blank" rel="noopener" href="http://luckyzmj.cn/">http://luckyzmj.cn/</a></li>
+<li>博客演示地址：<a target="_blank" rel="noopener" href="http://gunian.cool/">http://gunian.cool/</a></li>
 <li>开源项目地址：<a target="_blank" rel="noopener" href="https://github.com/liumangxing-user/LuckyBlog">https://github.com/liumangxing-user/LuckyBlog</a></li>
 </ul>
 <p><strong>主题特性</strong></p>
@@ -855,11 +855,11 @@ layout: <span class="token string">"contact"</span>
 
 <span class="token comment">## 友链</span>
 ---
-Lucky_Meの友链信息
+故念の友链信息
 
-博客名称: Lucky_Meの博客
+博客名称: 故念の博客
 
-博客网址: http://luckyzmj.cn
+博客网址: http://gunian.cool
 
 博客头像: https://z3.ax1x.com/2021/11/24/oinZVO.jpg
 
@@ -1118,7 +1118,7 @@ featureImages:
 
 <h3 id="0x04-更多内容优化"><a href="#0x04-更多内容优化" class="headerlink" title="0x04 更多内容优化"></a>0x04 更多内容优化</h3><p>以上简单介绍了 <code>LuckyBlog</code> 中一些要修改的个性化地方，其他更详细的优化参考其他关于<code>Matery</code>的文章。以下几篇文章都是基于<code>hexo-theme-matery</code>主题优化的教程，大家如果遇到问题，可以参考其中的方法。</p>
 <ul>
-<li><a target="_blank" rel="noopener" href="http://luckyzmj.cn/posts/e3e08109.html">个人博客搭建</a></li>
+<li><a target="_blank" rel="noopener" href="http://gunian.cool/posts/e3e08109.html">个人博客搭建</a></li>
 <li><a target="_blank" rel="noopener" href="https://sunhwee.com/posts/6e8839eb.html">Hexo+Github博客搭建完全教程</a></li>
 <li><a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md">hexo-theme-matery作者教程</a></li>
 <li><a target="_blank" rel="noopener" href="https://yafine-blog.cn/posts/4ab2.html">Hexo+github搭建博客(超级详细版，精细入微)</a></li>
@@ -1355,6 +1355,240 @@ featureImages:
     
 
     
+	
+	
+	    <style>
+    .twikoo-card {
+        margin: 1.5rem auto;
+    }
+    .twikoo-card .card-content {
+        padding: 20px;
+    }
+    #tcomments textarea {
+        box-sizing: border-box;
+        background: url("/") 100% 100% no-repeat;
+    }
+    #tcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+    #tcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+    #tcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    #tcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+    #tcomments ol li {
+        list-style-type: decimal;
+    }
+    #tcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+    #tcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+    #tcomments ul li {
+        list-style-type: disc;
+    }
+    #tcomments ul ul li {
+        list-style-type: circle;
+    }
+    #tcomments table,
+    th,
+    td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+    #tcomments table,
+    th,
+    td {
+        border: 0;
+    }
+    table tr:nth-child(2n),
+    thead {
+        background-color: #fafafa;
+    }
+    #tcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+    #tcomments table td {
+        min-width: 80px;
+    }
+    #tcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+    #tcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+    #tcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+    #tcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+    #tcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+    #tcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    #tcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    #tcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+    #tcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+    #tcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+    #tcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+    #tcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+    #tcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+    #tcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+    #tcomments [type="checkbox"]:not(:checked),
+    [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+    #tcomments b,
+    strong {
+        font-weight: bold;
+    }
+    #tcomments dfn {
+        font-style: italic;
+    }
+    #tcomments small {
+        font-size: 85%;
+    }
+    #tcomments cite {
+        font-style: normal;
+    }
+    #tcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+    #tcomments table,
+    th,
+    td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+    table tr:nth-child(2n),
+    thead {
+        background-color: #fafafa;
+    }
+    #tcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+    #tcomments table td {
+        min-width: 80px;
+    }
+    #tcomments [type="checkbox"]:not(:checked),
+    [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card twikoo-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div class="card-content" style="display: grid">
+        <div id="tcomments"></div>
+    </div>
+</div>
+
+<script src="/libs/twikoo/twikoo.all.min.js"></script>
+<script>
+    twikoo.init({
+        envId: 'gunian-0gzph1pxb7a7403b',
+        el: '#tcomments',
+        region: '',
+        path: ''
+    }).then(function () {
+        var tkInputs = document.querySelector('#twikoo').getElementsByTagName('input');
+        for (var tkInputsIndex = 0; tkInputsIndex < tkInputs.length; tkInputsIndex++) {
+            if (tkInputs[tkInputsIndex]) {
+                tkInputs[tkInputsIndex].classList.add('browser-default');
+            }
+        }
+    });
+</script>
+	
 
     
 
