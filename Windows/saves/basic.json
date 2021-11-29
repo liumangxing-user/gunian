@@ -241,7 +241,7 @@
                 "width": "x*0.8"
             },
             "title": "个人博客",
-            "url": "http://www.luckyzmj.cn",
+            "url": "http://gunian.cool",
             "customTile": "",
             "urlRandomToken": true
         },
@@ -662,7 +662,7 @@
                 "y": "y*0.05"
             },
             "version": "1.0.0",
-            "poweredBy": "luckyzmj",
+            "poweredBy": "故念",
             "resizable": true,
             "single": false,
             "size": {
@@ -670,7 +670,7 @@
                 "width": "x*0.8"
             },
             "title": "GoogleHacking",
-            "url": "http://luckyzmj.cn/GoogleHacking/",
+            "url": "http://gunian.cool/GoogleHacking/",
             "customTile": "",
             "urlRandomToken": true
         },
@@ -827,7 +827,7 @@
                 "y": "y*0.05"
             },
             "version": "1.0.0",
-            "poweredBy": "luckyzmj",
+            "poweredBy": "故念",
             "resizable": true,
             "single": false,
             "size": {
